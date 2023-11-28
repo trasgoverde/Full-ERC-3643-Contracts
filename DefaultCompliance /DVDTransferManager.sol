@@ -2,8 +2,8 @@
 
 pragma solidity 0.8.20;
 
-import "../roles/AgentRole.sol";
-import "../token/IToken.sol";
+import "./AgentRole.sol";
+import "./IToken.sol";
 
 
 contract DVDTransferManager is Ownable {

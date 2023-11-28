@@ -2,10 +2,10 @@
 
 pragma solidity 0.8.20;
 
-import "@onchain-id/solidity/contracts/interface/IIdentity.sol";
+import "./IIdentity.sol";
 
-import "../../../token/IToken.sol";
-import "../../../registry/interface/IIdentityRegistry.sol";
+import "./IToken.sol";
+import "./IIdentityRegistry.sol";
 import "./AgentRoles.sol";
 
 contract AgentManager is AgentRoles {

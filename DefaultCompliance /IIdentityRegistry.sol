@@ -2,12 +2,12 @@
 
 pragma solidity ^0.8.0;
 
-import '../registry/ITrustedIssuersRegistry.sol';
-import '../registry/IClaimTopicsRegistry.sol';
-import '../registry/IIdentityRegistryStorage.sol';
+import './ITrustedIssuersRegistry.sol';
+import './IClaimTopicsRegistry.sol';
+import './IIdentityRegistryStorage.sol';
 
-import '@onchain-id/solidity/contracts/interface/IClaimIssuer.sol';
-import '@onchain-id/solidity/contracts/interface/IIdentity.sol';
+import './IClaimIssuer.sol';
+import './IIdentity.sol';
 
 interface IIdentityRegistry {
     /**

@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.0;
 
-import "./interface/IIdentity.sol";
-import "./version/Version.sol";
-import "./storage/Storage.sol";
+import "./IIdentity.sol";
+import "./Version.sol";
+import "./Storage.sol";
 
 /**
  * @dev Implementation of the `IERC734` "KeyHolder" and the `IERC735` "ClaimHolder" interfaces into a common Identity Contract.

@@ -4,8 +4,8 @@ pragma solidity ^0.8.0;
 
 import '@onchain-id/solidity/contracts/interface/IIdentity.sol';
 
-import '../roles/AgentRole.sol';
-import '../registry/IIdentityRegistryStorage.sol';
+import './AgentRole.sol';
+import './IIdentityRegistryStorage.sol';
 
 contract IdentityRegistryStorage is IIdentityRegistryStorage, AgentRole {
     /// @dev struct containing the identity contract and the country of the user

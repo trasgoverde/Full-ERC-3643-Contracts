@@ -1,13 +1,13 @@
 pragma solidity ^0.8.0;
 
-import '@onchain-id/solidity/contracts/interface/IClaimIssuer.sol';
-import '@onchain-id/solidity/contracts/interface/IIdentity.sol';
+import './IClaimIssuer.sol';
+import './IIdentity.sol';
 
-import '../registry/IClaimTopicsRegistry.sol';
-import '../registry/ITrustedIssuersRegistry.sol';
-import '../registry/IIdentityRegistry.sol';
-import '../roles/AgentRole.sol';
-import '../registry/IIdentityRegistryStorage.sol';
+import './IClaimTopicsRegistry.sol';
+import './ITrustedIssuersRegistry.sol';
+import './IIdentityRegistry.sol';
+import './roles/AgentRole.sol';
+import './IIdentityRegistryStorage.sol';
 
 
 contract IdentityRegistry is IIdentityRegistry, AgentRole {

@@ -2,8 +2,8 @@
 
 pragma solidity 0.8.20;
 
-import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Pausable.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "./ERC20Pausable.sol";
+import "./Ownable.sol";
 
 contract TestERC20 is Ownable, ERC20Pausable {
 

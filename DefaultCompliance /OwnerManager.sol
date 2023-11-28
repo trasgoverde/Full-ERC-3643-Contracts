@@ -2,15 +2,15 @@
 
 pragma solidity 0.8.20;
 
-import "../../../token/IToken.sol";
-import "../../../registry/interface/IIdentityRegistry.sol";
-import "../../../registry/interface/ITrustedIssuersRegistry.sol";
-import "../../../registry/interface/IClaimTopicsRegistry.sol";
-import "../../../compliance/legacy/ICompliance.sol";
+import "./IToken.sol";
+import "./IIdentityRegistry.sol";
+import "./ITrustedIssuersRegistry.sol";
+import "./IClaimTopicsRegistry.sol";
+import "./ICompliance.sol";
 import "./OwnerRoles.sol";
-import "../../AgentRole.sol";
-import "@onchain-id/solidity/contracts/interface/IIdentity.sol";
-import "@onchain-id/solidity/contracts/interface/IClaimIssuer.sol";
+import "./AgentRole.sol";
+import "./IIdentity.sol";
+import "./IClaimIssuer.sol";
 
 contract OwnerManager is OwnerRoles {
     /// @dev the token that is managed by this OwnerManager Contract
